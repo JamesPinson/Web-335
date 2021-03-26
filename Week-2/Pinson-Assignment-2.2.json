@@ -1,0 +1,73 @@
+{
+    "_id": 222,
+    "first_name": "Josh",
+    "last_name": "Jenkins",
+    "date_of_birth": "12/22/1974",
+    "user_name": "JoshJenkins21",
+    "invoice": [
+        {
+            "_id:": 124,
+            "date_created": { 
+                "month": 3,
+                "day": 23,
+                "year": 2021
+            },
+            "date_shipped": {
+                "month": 3,
+                "day": 23,
+                "year": 2021
+            },
+            "subtotal": 41.00,
+            "tax": 4.10,
+            "total": 45.10,
+            "line-item": [
+                {
+                    "_id": 3902,
+                    "name": "action figure",
+                    "price": 21,
+                    "quantity": 1
+                },
+                {
+                    "_id": 2035,
+                    "name": "video game",
+                    "price": 10,
+                    "quantity": 2
+                }
+            ]
+            
+        },
+        {
+            "_id:": 111,
+            "date_created": { 
+                "month": 2,
+                "day": 20,
+                "year": 2021
+            },
+            "date_shipped": {
+                "month": 2,
+                "day": 21,
+                "year": 2021
+            },
+            "subtotal": 90.00,
+            "tax": 9.00,
+            "total": 99.00,
+            "line-item": [
+                {
+                    "_id": 4891,
+                    "name": "dvd player",
+                    "price": 65,
+                    "quantity": 1
+                },
+                {
+                    "_id": 8812,
+                    "name": "movie",
+                    "price": 5,
+                    "quantity": 5
+                }
+            ]
+            
+        }
+
+    ]
+    
+}
