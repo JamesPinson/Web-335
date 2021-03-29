@@ -1,0 +1,27 @@
+[
+    {
+        "firstName": "John",
+        "lastName": "Cena",
+        "roles": [
+            {
+                "id": "3002",
+                "text": "admin"
+            },
+            {
+                "id": "2003",
+                "text": "standard"
+            }
+        ],
+        "dependents": [
+            {
+                "firstName": "Shawn",
+                "lastName": "Cena"
+            },
+            {
+                "firstName": "Freddy",
+                "lastName": "Cena"
+            }
+        ],
+        "birthday": "12 August 1983"
+    }
+]
