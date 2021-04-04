@@ -1,0 +1,27 @@
+{
+    "user": "Shawn Michaels", 
+    "_id": "290367",
+    "department": "Human Resources",
+    "roles": [
+        {
+            "title": "payroll",
+            "permission":[
+                {
+                    "admin": true,
+                    "view": true,
+                    "post": true
+              }]
+        },
+        {
+            "title": "recruiter",
+            "permission": [
+                {
+                    "admin": false,
+                    "view": true,
+                    "post": false
+                }]
+        }
+    ]
+            
+
+ }   

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>270</x>
+      <y>250</y>
+      <w>330</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>PUBLISHER DOCUMENT
+-
+{
+"publisher_name": "JP Publishing Co.",
+"publisher_code": "209381",
+"publisher_address": "682 Mary Rd. Knoxville,Tn
+"authors": [author info],
+"books": [book info]
+}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>920</x>
+      <y>250</y>
+      <w>330</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>AUTHOR DOCUMENT
+-
+{
+"author_first_name": "Seth",
+"author_last_name": "Rollins",
+"author_phone": "618-309-7788",
+"author_email": "rollins.seth@gmail.com,
+"books": [book info]
+}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>910</x>
+      <y>630</y>
+      <w>330</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>BOOK DOCUMENT
+-
+{
+"book_name": "The Story of Seth Rollins",
+"book_price": 25.99,
+"book_isbn": 1234598089
+}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1070</x>
+      <y>410</y>
+      <w>140</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..n
+m2=0..n
+may have many &gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;220.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>590</x>
+      <y>300</y>
+      <w>350</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..1
+m2=0..n
+represents many &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;330.0;20.0</additional_attributes>
+  </element>
+</diagram>
